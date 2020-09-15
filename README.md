@@ -14,7 +14,7 @@ npm start
 npm run build
 ```
 
-### Consideraciones
+### Considerations
 
 This project has **Redux Devtools enabled.**
 
