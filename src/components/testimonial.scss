@@ -1,0 +1,81 @@
+@import '../variables';
+
+//testimonial component
+#testimonial-section{
+    height: 254px;
+    background-color: $white;
+    margin-top: 80px;
+    margin-right: 266px;
+    padding: 32px;
+    position: relative;
+    #author-container{
+      display: inline-block;
+      vertical-align: top;
+      span{
+        display: block;
+      }
+      #author-name{
+        color: $black;
+        font-size: 32px;
+        font-weight: bold;
+      }
+      #author-ref{
+        color: $grey;
+        font-size: 14px;
+        font-weight: regular;
+      }
+    }
+    #quote-container{
+      display: inline-block;
+      width: 565px;
+      margin-left: 215px;
+      @media screen and (max-width: 1412px) {
+          margin-left: 10%;
+      }
+      #quote{
+        font-size: 24px;
+        line-height: 32px;
+        font-weight: bold;
+      }
+      &>#controls-container{
+        display: inline-block;
+        height: 56px;
+        position: absolute;
+        bottom: -35px;
+        right: -78px;
+        div{
+          display: inline-block;
+          height: 100%;
+          color: $white;
+          background-color: $cobalt-blue;
+          overflow: hidden;
+          &:first-child{
+            width: 120px;
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 32px;
+            font-style: italic;
+            letter-spacing: .69px;
+            padding: 8px 44px 16px 41px;
+            margin-right: 1px;
+          }
+          button{
+            vertical-align: top;
+            width: 56px;
+            height: 100%;
+            border: none;
+            background-color: transparent;
+            color: $white;
+            #previous-arrow{
+              transform: rotate(-90deg);
+            }
+            #next-arrow{
+              transform: rotate(90deg);
+            }
+          }
+          
+        }
+        
+      }
+    }
+    
+  }

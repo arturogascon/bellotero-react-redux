@@ -1,0 +1,31 @@
+@import '../variables';
+
+nav {
+    padding: 19px 170px 19px 174px;
+    background-color: $white;
+   img{
+     width: 133px;
+     object-fit: contain;
+     vertical-align: top;
+   }
+   ul{
+     margin-left: 467px;
+     display: inline-flex;
+     list-style-type: none;
+     overflow: hidden;
+     vertical-align: -15%;
+     @media screen and (max-width: 1349px){
+      margin-left: 30%;
+     }
+     li{
+       font-weight: 500;
+       color: $cobalt-blue;
+       margin: 0 20px;
+       font-size: 14px;
+       letter-spacing: .3px;
+       a{
+         text-decoration: none;
+       }
+     }
+   }
+ }

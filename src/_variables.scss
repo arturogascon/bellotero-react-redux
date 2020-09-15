@@ -1,0 +1,39 @@
+//colors
+$ice-blue: #f9faff;
+$cobalt-blue: #071eb3;
+$white: #fff;
+$black: #161616;
+$grey: #a5a5a5;
+$pale-lilac: #d6dcff;
+$light-blue: #f0f2ff;
+
+//global lenght
+$h1-cont-height: 56px;
+
+//testimonial component
+$spending-width: 190px; 
+$employee-width: 67px;
+$input-value-height: 52px;
+
+//Input range styles for Configurator component
+//Variables
+$thumb-width: 6px;
+$thumb-height: 6px;
+$track-width: 535px;
+$track-height: 4px;
+
+//Mixins for input range
+@mixin thumb {
+    width: $thumb-width;
+    height: $thumb-height;
+    background-color: $white;
+    border: 5px solid $cobalt-blue;
+    border-radius: 16px;
+    cursor: pointer;
+  }
+  @mixin track {
+    width: $track-width;
+    height: $track-height;
+    background-color: $cobalt-blue;
+    cursor: pointer;
+  }

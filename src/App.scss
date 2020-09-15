@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,600&family=Roboto:wght@400;500;700;900&display=swap');
+@import './variables'; //Importing scss variables
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: $ice-blue;
+}
+
+.app{
+  font-family: 'Roboto', sans-serif;
+}
+
+//for both the configurator and testimonial component:
+.component{
+  padding: 120px 0 0 172px;
+}
+
+.header-container{
+  display: table;
+  background-color: $cobalt-blue;
+  height: $h1-cont-height;
+  padding: 8px 4px;
+  h1{
+    font-size: 36px;
+    color: $white;
+  }
+}
