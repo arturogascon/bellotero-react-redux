@@ -16,7 +16,7 @@ npm run build
 
 ### Considerations
 
-This project has **Redux Devtools enabled.**
+This project has **Redux Devtools** _enabled_.
 
 
 ## Agradecimientos
