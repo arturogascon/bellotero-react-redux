@@ -9,6 +9,7 @@
 
 body{
   background-color: $ice-blue;
+  font-size: 16px;
 }
 
 .app{
@@ -18,6 +19,21 @@ body{
 //for both the configurator and testimonial component:
 .component{
   padding: 120px 0 0 172px;
+  @media screen and (max-width: 1207px){
+    padding: 10% 0 0 40px;
+  }
+  @media screen and (max-width: 1018px){
+    padding: 10% 15vh 40px;
+    margin: 0 auto;
+  }
+  @media screen and (max-width: 762px){
+    padding: 10% 35px 40px;
+    margin: 0 auto;
+  }
+  @media screen and (max-width: 422px){
+    padding: 8% 10px 40px;
+    margin: 0 auto;
+  }
 }
 
 .header-container{

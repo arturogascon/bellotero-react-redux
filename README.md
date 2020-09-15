@@ -14,6 +14,11 @@ npm start
 npm run build
 ```
 
+## Deployment
+
+_You can see this project deployed_ [HERE...](https://bellotero-io.netlify.app/)
+
+
 ### Considerations
 
 This project has **Redux Devtools** _enabled_.

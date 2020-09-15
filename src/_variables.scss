@@ -20,6 +20,7 @@ $input-value-height: 52px;
 $thumb-width: 6px;
 $thumb-height: 6px;
 $track-width: 535px;
+$track-width-min: 80%;
 $track-height: 4px;
 
 //Mixins for input range
@@ -28,12 +29,16 @@ $track-height: 4px;
     height: $thumb-height;
     background-color: $white;
     border: 5px solid $cobalt-blue;
-    border-radius: 16px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px 0 rgba(7, 30, 179, 0.24);
     cursor: pointer;
   }
-  @mixin track {
+@mixin track {
     width: $track-width;
     height: $track-height;
     background-color: $cobalt-blue;
     cursor: pointer;
-  }
+    @media screen and (max-width: 606px){
+        width: 350px;
+    }
+}

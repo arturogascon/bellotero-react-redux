@@ -17,7 +17,6 @@ class Configurator extends Component {
     handleEmployeeQty = (e) =>{
         this.props.changeEmployeeQty(e.target.value);
     }
-
     render(){
         if (this.props.data){
             const {data} = this.props,
@@ -52,14 +51,15 @@ class Configurator extends Component {
                             <label>Monthly<br/>ingredient spending</label>
                             <div id="spending-value"><span id="money-sign">$</span><span className="number-value">{monthlySpending}</span></div>
                         </div>
-                        <input type="range" min="10" max="100" step="1" onChange={this.handleMonthlySpending}/>
+                        <input type="range" min="10" max="100" step="1" onChange={this.handleMonthlySpending}
+                        />
                     </div>
                     <div>
                         <div className="value-section">
                             <label>Full-time employees that<br/>process invoices</label>
                             <div id="employee-value"><span className="number-value">{employeeQty}</span></div>
                         </div>
-                        <input type="range" min="1" max="10" step="1" value={employeeQty} onChange={this.handleEmployeeQty}/>
+                        <input type="range" min="1" max="10" step="1" value={employeeQty} onChange={this.handleEmployeeQty} />
                     </div>
                     <div id="calculation-section">
                         <div className="calculation-container">

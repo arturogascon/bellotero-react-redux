@@ -3,6 +3,9 @@
 nav {
     padding: 19px 170px 19px 174px;
     background-color: $white;
+    @media screen and (max-width: 1207px){
+      padding: 15px 25px;
+    }
    img{
      width: 133px;
      object-fit: contain;
@@ -17,12 +20,21 @@ nav {
      @media screen and (max-width: 1349px){
       margin-left: 30%;
      }
+     @media screen and (max-width: 819px){
+      margin-left: 10vw;
+     }
+     @media screen and (max-width: 671px){
+      margin-left: 25px;
+     }
      li{
        font-weight: 500;
        color: $cobalt-blue;
        margin: 0 20px;
        font-size: 14px;
        letter-spacing: .3px;
+       @media screen and (max-width: 671px){
+        margin: 0 10px;
+       }
        a{
          text-decoration: none;
        }
