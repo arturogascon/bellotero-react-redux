@@ -8,6 +8,12 @@ _Project that I made to practice my react and redux skills_
 npm start
 ```
 
+## Use the next command to crete a production build:
+
+```
+npm run build
+```
+
 ### Consideraciones
 
 This project has **Redux Devtools enabled.**
