@@ -2,10 +2,10 @@
 
 _Project that I made to practice my react and redux skills_
 
-## You can run this awesome project by running:
+## You can run this awesome project by installin dependencies and running the dev server:
 
 ```
-npm start
+npm i && npm start
 ```
 
 ## Use the next command to crete a production build:
